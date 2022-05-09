@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>INDEPENDENT</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+    <nav id="menu">
+        <ul>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <p class="lite-text">MENU</p>
+        <img src="close-menu.png" class="close-icon" onclick="closemenu()"> 
+    </nav>
+    <img src="open-menu.jpg" class="menu-icon" onclick="openmenu()">
+    
+      <div class="containerprim"> <h2>INDEPENDENT</h2></div> 
+       <script>
+           var menu = document.getElementById("menu")
+           function closemenu(){
+               menu.style.top = "-100vh";
+           }
+           function openmenu(){
+               menu.style.top = "0";
+           }
+       </script>
+        <div style="position: absolute; bottom: 5px; left: 5px; color: green"> <a>© 2022 Emi Tirnovan</a></div>
+    </div>
+    </body>
+</html>

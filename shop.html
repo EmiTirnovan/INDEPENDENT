@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.37.1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="assets/css/style2.css">   
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<style>model-viewer{width: 380px; height: 380px; margin: 0 auto;}</style>
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
+
+<title>INDEPENDENT</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <p class="lite-text">MENIU</p>
+        <img src="close-menu.png" class="close-icon" onclick="closemenu()"> 
+    </nav>
+    <img src="open-menu.jpg" class="menu-icon" onclick="openmenu()">
+    <header class="main-header" data-aos="fade-down">
+        <div class="containerprim"> <h2>SHOP</h2></div> 
+        <br>
+        <p>Dress yourself and your avatar with the latest releases of NFTshirts from the Independent brand!.</p>
+    </header>
+    <main class="container">
+        <section class="card" data-aos="fade-up">
+            <model-viewer src="assets/3d_models/tricou2.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+    </model-viewer>
+            <div><h3>Test T-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+            <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <model-viewer src="assets/3d_models/tricou.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+            </model-viewer>
+            <div><h3>black t-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+        <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <model-viewer src="assets/3d_models/tricou2.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+            </model-viewer>
+            <div><h3>Beta t-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+        <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <model-viewer src="assets/3d_models/tricou.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+            </model-viewer>
+            <div><h3>#1 t-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+        <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <model-viewer src="assets/3d_models/tricou2.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+            </model-viewer>
+            <div><h3>Beta t-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+        <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+        <section class="card" data-aos="fade-">
+            <model-viewer src="assets/3d_models/tricou.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+            </model-viewer>
+            <div><h3>Beta t-shirt</h3>
+            <p>A simple and clean look that will make you different from all the other players on the server or gamers in the room. <i> This NFTshirt is a test one, not the final product </i></p>
+        <a href="get.html" class="btn">Get now!</a></div>
+        </section>
+
+
+    </main>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          delay:0,
+          duration: 1000
+      });
+    </script>
+    <script type="module"
+		  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+	  </script>
+
+
+	<script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+	</script>
+    <script>
+        var menu = document.getElementById("menu")
+        function closemenu(){
+            menu.style.top = "-100vh";
+        }
+        function openmenu(){
+            menu.style.top = "0";
+        }
+    </script>
+
+</html>

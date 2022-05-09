@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.37.1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="assets/css/style_about.css">   
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<style>.card{color: white;}.card h3{ font-size: 1.2rem;color: yellowgreen;}model-viewer{width: 400px; height: 400px; margin: 0 auto;}</style>
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
+
+<title>INDEPENDENT</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <p class="lite-text">MENIU</p>
+        <img src="close-menu.png" class="close-icon" onclick="closemenu()"> 
+    </nav>
+    <img src="open-menu.jpg" class="menu-icon" onclick="openmenu()">
+    <header class="main-header" data-aos="fade-down">
+        <div class="containerprim"> <h2>ABOUT</h2></div> 
+        <br>
+        <p>INDEPENDENT. NFTshirt.</p>
+    </header>
+    <main class="container">
+        <section class="card" data-aos="fade-">
+            <div class="product"> 
+                <img src="assets/css/img/NFT.png" alt="">
+                <img src="assets/css/img/NFT.png" alt="">
+                <img src="assets/css/img/NFT.png" alt="">
+                <img src="assets/css/img/NFT.png" alt=""> </div> 
+            </model-viewer>
+            <div>
+                <h3>What is INDEPENDENT?</h3>
+            <p>Independent is a project created by Emi Tirnovan with the aim of uniting the digital world with the real one by creating a type of digital clothing, in the form of NFT, as well as physical. The idea of being able to buy a garment you wear in real life, as well as on Metaverse is unique</p>
+            
+            <br><p><h3>What is an NFTSHIRT?</h3>is a non-fungible token is a unique unit of data in the blockchain. It can be viewed in AR, you can dress your character with it, as well as you. Basically, it is both a physical and a virtual object.</p>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          delay:0,
+          duration: 1000
+      });
+    </script>
+    <script type="module"
+		  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+	  </script>
+
+
+	<script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+	</script>
+    <script>
+        var menu = document.getElementById("menu")
+        function closemenu(){
+            menu.style.top = "-100vh";
+        }
+        function openmenu(){
+            menu.style.top = "0";
+        }
+    </script>
+
+</html>

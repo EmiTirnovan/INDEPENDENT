@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>INDEPENDENT</title>
+    <style>body{background-color: black; justify-content: center; top: 100vh;}</style>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <p class="lite-text">MENU</p>
+        <img src="close-menu.png" class="close-icon" onclick="closemenu()"> 
+    </nav>
+    <img src="open-menu.jpg" class="menu-icon" onclick="openmenu()">
+    <iframe src="https://free.timeanddate.com/countdown/i8bjmq3o/n2209/cf13/cm0/cu4/ct3/cs0/ca0/cr0/ss0/cac090/cpc090/pct/tcfff/fs350/szw576/szh243/tac000/tpc000/mac000/mpc000/iso2022-05-02T00:00:00" allowtransparency="true" frameborder="0" width="396" height="605"></iframe>
+
+
+</body>
+<script>
+    var menu = document.getElementById("menu")
+    function closemenu(){
+        menu.style.top = "-100vh";
+    }
+    function openmenu(){
+        menu.style.top = "0";
+    }
+</script>
+</html>
